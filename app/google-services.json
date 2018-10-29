@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "682917969415",
+    "firebase_url": "https://mywhatsapp-de13e.firebaseio.com",
+    "project_id": "mywhatsapp-de13e",
+    "storage_bucket": "mywhatsapp-de13e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:682917969415:android:3a4aa085b5e02421",
+        "android_client_info": {
+          "package_name": "com.wilsonundrix.mywhatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "682917969415-13pqlc6cdrkktiqnev4gikus10dklpcl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wilsonundrix.mywhatsapp",
+            "certificate_hash": "77eee7fdc9a8fe6161cdc544d59abfc87ac97e67"
+          }
+        },
+        {
+          "client_id": "682917969415-0d3u2221ia32jl79a6a0mif8cerm4guk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1iNC0XlDzz66YhkaI83DJTKalGaxAEac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "682917969415-0d3u2221ia32jl79a6a0mif8cerm4guk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
