@@ -3,12 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ContactsFragment">
+    tools:context=".FindFriendsActivity">
 
-    <!-- TODO: Update blank fragment layout -->
+    <include
+        android:id="@+id/find_friends_toolbar"
+        layout="@layout/app_bar_layout" />
+
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/contacts_list"
+        android:id="@+id/find_friends_recycler_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_below="@id/find_friends_toolbar" />
 
 </RelativeLayout>

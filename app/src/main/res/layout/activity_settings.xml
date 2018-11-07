@@ -6,13 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".SettingsActivity">
 
+    <include
+        android:id="@+id/toolbarSettings"
+        layout="@layout/app_bar_layout" />
+
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/set_prof_image"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/toolbarSettings"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/ic_account_circle"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/profile_image"
         app:civ_border_color="@color/colorPrimary"
         app:civ_border_width="5dp" />
 
@@ -57,11 +62,11 @@
         android:layout_below="@id/set_profile_status"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="12dp"
-        android:textSize="18sp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/buttons"
+        android:text="Update"
         android:textAllCaps="false"
         android:textColor="@android:color/background_light"
-        android:background="@drawable/buttons"
-        android:layout_marginRight="16dp"
-        android:text="Update" />
+        android:textSize="18sp" />
 
 </RelativeLayout>

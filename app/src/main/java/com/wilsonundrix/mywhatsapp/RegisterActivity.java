@@ -88,7 +88,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 finish();
                             } else {
                                 String error = task.getException().getMessage();
-                                Toast.makeText(RegisterActivity.this, "User Created Successfully", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(RegisterActivity.this, "Error : " + error, Toast.LENGTH_SHORT).show();
                                 loadingBar.dismiss();
                             }
                         }
